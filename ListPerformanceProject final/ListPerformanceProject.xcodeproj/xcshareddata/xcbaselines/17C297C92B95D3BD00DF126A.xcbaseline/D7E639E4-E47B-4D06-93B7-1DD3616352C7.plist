@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classNames</key>
+	<dict>
+		<key>CoreDataTests</key>
+		<dict>
+			<key>testListCoreData()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_CPU-com.karinprater.ListPerformanceProject.time</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.601281</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory-com.karinprater.ListPerformanceProject.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>32.768000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory-com.karinprater.ListPerformanceProject.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>34066.918400</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testListViewModel()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_CPU-com.karinprater.ListPerformanceProject.time</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.507715</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory-com.karinprater.ListPerformanceProject.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>65.536000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>FilteringListsTests</key>
+		<dict>
+			<key>testListComputedProperty()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_CPU-com.karinprater.ListPerformanceProject.time</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.378619</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory-com.karinprater.ListPerformanceProject.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>799.539200</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory-com.karinprater.ListPerformanceProject.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>29974.233600</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testListFilteringInside()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_CPU-com.karinprater.ListPerformanceProject.time</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.385650</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory-com.karinprater.ListPerformanceProject.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>848.691200</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory-com.karinprater.ListPerformanceProject.physical_absolute</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>34814.115200</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testListViewModel()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_CPU-com.karinprater.ListPerformanceProject.time</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.377358</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory-com.karinprater.ListPerformanceProject.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>42.598400</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testVStackFiltering()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_CPU-com.karinprater.ListPerformanceProject.time</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>5.838381</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>SortingPerformanceTests</key>
+		<dict>
+			<key>testCoreDataList()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.440000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testCoreDataListLast()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.785454</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testCoreDataListSorting()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.430000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testCoreDataListSortingLast()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.424776</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testExampleListOptimized()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.520000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+			<key>testExampleListOptimizedSorting()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.426380</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
